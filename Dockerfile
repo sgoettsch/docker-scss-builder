@@ -1,7 +1,7 @@
 FROM google/dart
 
 # renovate: datasource=github-tags depName=sass/dart-sass versioning=semver
-ARG DART_SASS_VERSION=1.87.0
+ARG DART_SASS_VERSION=1.89.0
 ARG DART_SASS_TAR=dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz
 ARG DART_SASS_URL=https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/${DART_SASS_TAR}
 
