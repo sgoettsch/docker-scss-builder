@@ -1,4 +1,4 @@
-FROM google/dart
+FROM google/dart@sha256:18bddbade58e5109a38a7bcd44839bbd29341ea3f091debf936a84c6da625bc7
 
 # renovate: datasource=github-tags depName=sass/dart-sass versioning=semver
 ARG DART_SASS_VERSION=1.89.0
