@@ -25,6 +25,12 @@
       "matchUpdateTypes": ["pin", "digest", "pinDigest"],
       "automerge": true,
       "automergeType": "branch"
+    },
+    {
+      "matchPackageNames": ["sass/dart-sass"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true,
+      "automergeType": "branch"
     }
   ]
 }
